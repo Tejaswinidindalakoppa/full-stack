@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+
+    <!-- Internal CSS for styling -->
+    <style>
+      /* Body background with an image */
+      body {
+        background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+        font-family: sans-serif;
+        padding: 20px;
+      }
+
+      h1{
+        font-size: 40px;
+      }
+
+      h2{
+        font-size: 30px;
+      }
+
+      .established{
+        font-style: italic;
+      }
+
+      /* Center-align headings and paragraphs */
+      h1, h2 {
+        font-family: 'impact', serif;
+      }
+
+      /* Center the menu with auto margins */
+       .menu {
+        width: 80%;
+        max-width: 500px;
+        background-color: burlywood;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+
+      }
+
+      hr{
+        background-color: brown;
+        border-color: brown;
+        height: 2px;
+      } 
+
+      .bottom-line{
+        margin-top: 25px;
+      }
+
+      /* Style for articles to place flavor and price on the same line */
+      .item p {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+
+      /* Align flavor to the left and set its width to 75% */
+      .flavor,.dessert {
+        text-align: left;
+        width: 75%; /* Updated width for flavor */
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      /* Align price to the right and set its width to 25% */
+      .price {
+        text-align: right;
+        width: 25%; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      /*FOOTER*/
+      footer{
+        font-size: 14px;
+      }
+
+      a{
+        color: black;
+      }
+
+      a:visited {
+        color: grey
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p class="established"> Est. 2020</p>
+        <hr>
+        <section>
+          <h2>Coffee</h2>
+          <!-- Coffee items with both flavor and price on the same line -->
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">$3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">$3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">$3.50</p>
+          </article> 
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">$4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">$4.50</p>
+          </article>
+        </section>
+          <h2>Desserts</h2>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </article>
+        <section>
+        </section>
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+           <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p>
+            <a href="https://www.freecodecamp.org" target="_blank">123 Free Code Camp Drive</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
