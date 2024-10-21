@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Accessibility Quiz</title>
+    <style>
+      /* General styles */
+      body {
+        background: #f5f6f7;
+        color: #1b1b32;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Header styles */
+      header {
+        width: 100%;
+        height: 50px;
+        background-color: #1b1b32;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+      }
+
+      /* Logo styles */
+      #logo {
+        width: max(10rem, 18vw);
+        background-color: #0a0a23;
+        aspect-ratio: 35 / 4;
+        padding: 0.4rem;
+      }
+
+      /* Header title styles */
+      h1 {
+        color: #f1be32;
+        font-size: min(5vw, 1.2em);
+      }
+
+      /* Navigation styles */
+      nav {
+        width: 50%;
+        max-width: 300px;
+        height: 50px;
+      }
+
+      nav > ul {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        color: #f1be32;
+      }
+
+      /* Main section styles */
+      main {
+        padding: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        color: #1b1b32;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #333;
+      }
+
+      label {
+        font-size: 1rem;
+        color: #1b1b32;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        background-color: #1b1b32;
+        color: #f1be32;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #f1be32;
+        color: #1b1b32;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img id="logo" alt="freeCodeCamp" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+      <h1>HTML/CSS Quiz</h1>
+      <nav>
+        <ul>
+          <li><a href="#">INFO</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+        <!-- Section 1: Introduction -->
+        <section role="region">
+          <h2>Introduction</h2>
+          <p>Welcome to the HTML/CSS Accessibility Quiz! Answer the following questions to test your knowledge.</p>
+        </section>
+
+        <!-- Section 2: Quiz Questions -->
+        <section role="region">
+          <h2>Quiz Questions</h2>
+          <label for="q1">1. What does HTML stand for?</label><br>
+          <input type="text" id="q1" name="q1"><br>
+
+          <label for="q2">2. What is the purpose of CSS?</label><br>
+          <input type="text" id="q2" name="q2"><br>
+
+          <label for="q3">3. How do you link a CSS file to an HTML file?</label><br>
+          <input type="text" id="q3" name="q3"><br>
+        </section>
+
+        <!-- Section 3: Submission -->
+        <section role="region">
+          <button type="submit">Submit Answers</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
