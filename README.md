@@ -33,5 +33,4 @@ The FreeCodeCamp curriculum is divided into multiple certifications, each focusi
 
 
 🚧 Work in Progress
-
 This repository is an evolving space as I continue to learn and grow. Check back often for updates, new projects, and additional solutions!
