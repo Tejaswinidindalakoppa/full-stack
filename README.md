@@ -6,11 +6,8 @@ Welcome to my FreeCodeCamp repository! 🌟 This space documents my coding journ
 📚 Curriculum Overview
 
 The FreeCodeCamp curriculum is divided into multiple certifications, each focusing on key areas of web development and programming:
-
 1.Responsive Web Design 
-
 2.JavaScript Algorithms and Data Structures (Beta) 
-
 3.Front End Development Libraries 
 
 4.Data Visualization 
