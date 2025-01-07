@@ -9,6 +9,7 @@ The FreeCodeCamp curriculum is divided into multiple certifications, each focusi
 
 1.Responsive Web Design 
 
+
 2.JavaScript Algorithms and Data Structures (Beta) 
 
 3.Front End Development Libraries 
