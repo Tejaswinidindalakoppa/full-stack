@@ -25,6 +25,7 @@ The FreeCodeCamp curriculum is divided into multiple certifications, each focusi
 7.Quality Assurance 
 
 
+
 8.Scientific Computing with Python (Beta) 
 
 9.Data Analysis with Python 
