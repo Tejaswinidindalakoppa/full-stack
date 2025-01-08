@@ -19,7 +19,6 @@ The FreeCodeCamp curriculum is divided into multiple certifications, each focusi
 
 6.Back End Development and APIs 
 
-
 7.Quality Assurance 
 
 8.Scientific Computing with Python (Beta) 
