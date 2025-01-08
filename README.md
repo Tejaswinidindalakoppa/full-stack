@@ -16,7 +16,6 @@ The FreeCodeCamp curriculum is divided into multiple certifications, each focusi
 
 5.Relational Database 
 
-
 6.Back End Development and APIs 
 
 7.Quality Assurance 
