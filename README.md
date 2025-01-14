@@ -30,7 +30,6 @@ The FreeCodeCamp curriculum is divided into multiple certifications, each focusi
 
 12.College Algebra with Python 
 
-
 🚧 Work in Progress
 
 This repository is an evolving space as I continue to learn and grow. Check back often for updates, new projects, and additional solutions!
