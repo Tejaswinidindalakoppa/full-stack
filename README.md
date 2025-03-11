@@ -1,3 +1,4 @@
+
 🚀 FreeCodeCamp Journey 
 
 Welcome to my FreeCodeCamp repository! 🌟 This space documents my coding journey as I work through the FreeCodeCamp curriculum. Here, you’ll find my completed projects, solutions to challenges, and code snippets that showcase my growth as a developer.
